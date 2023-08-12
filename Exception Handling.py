@@ -3,7 +3,7 @@ try:
     result = list[0] / list[3]
     print(result)
     print("Done")
-except ZeroDivisionError:
+except (ZeroDivisionError,IndexError):
     print("Dividing by zero is not possible")
 finally:
     print("Successful")
