@@ -14,3 +14,5 @@ result = list(filter(even,num))
 print(result)
 
 
+
+

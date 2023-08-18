@@ -1,3 +1,4 @@
+# Hierarchical Inheritance
 class shape:
     def __init__(self,dim1,dim2):
         self.dim1 = dim1
