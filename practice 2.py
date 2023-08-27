@@ -10,10 +10,22 @@ for row in Matrix:
         print(col)"""
 
 # Dictionary
-student = {
+"""student = {
     101 : "Hasnine Mamud",
     102 : "hasninehemel85@gmail.com",
     103 : "01636441892"
 }
 print(student.get( 104,"Not a valid key"))
+"""
 
+
+
+# Tuples
+
+Data = (
+    "Hasnine,CGPA: 2.80, GPA: 2.50",
+    "Rifat,CGPA: 2.80, GPA: 2.50",
+    "Hasnine,CGPA: 3.80, GPA: 2.50"
+
+)
+print(Data[2])
