@@ -1,4 +1,6 @@
-a,b,c = map(str,input().split())
+a = str(input())
+b = str(input())
+c = str(input())
 if (a == "vertebrado"):
     if b == "ave":
         if c == "carnivoro":
