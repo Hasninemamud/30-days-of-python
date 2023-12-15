@@ -1,10 +1,9 @@
-"""a = 0
+a = 0
 b = 0
-for i in range(10):
-    i = int(input())
-    if i > a:
-         a = i
-         b = i
+for i in range(100):
+    n = int(input())
+    if n>a:
+        a = n
+        b = i
 print(a)
-print(b + 1)
-"""
+print(b+1)
