@@ -18,7 +18,11 @@ print("5. modulas")
 
 while(True):
     take = input("(Choice 1/2/3/4/5): ")
-    if take in ("1","2","3","4","5"):
+    if take < "5":
+        print("Enter Wrong input")
+        break
+    elif take in ("1","2","3","4","5"):
+
         try:
             x = float(input("Enter 1st number: "))
             y = float(input("Enter 2nd number: "))
@@ -35,6 +39,7 @@ while(True):
             print(f"X / Y ={x/y}")
         elif take == "5":
             print(f"X % Y ={x%y}")
+
 
         exit = input("Continue calculation (Yes/No): ")
         if exit == "No":

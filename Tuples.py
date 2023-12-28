@@ -4,4 +4,4 @@ students = (
     "Hasnine Mamud",
     "Yean Chowdoray",
 )
-print(students[0])
+print(students["Hemel",[2]])

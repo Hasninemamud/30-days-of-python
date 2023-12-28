@@ -1,6 +1,7 @@
 student = {
-    102 : "Hasnine Mamud",
-    103 : "Yean",
-    104 : " Rifat Hasan",
+    102: "Hasnine Mamud",
+    103: "Yean",
+    104: " Rifat Hasan",
 }
-print(student.get(105," not valid"))
+result = student.102
+print(student.102)
