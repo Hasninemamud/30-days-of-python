@@ -6,3 +6,5 @@ print(result)
 #[expression for item in list]
 result1 = [x*x for x in num]
 print(result1)
+
+
